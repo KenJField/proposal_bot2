@@ -1,0 +1,23 @@
+"""Configuration module."""
+
+from .settings import settings
+from .prompts import (
+    EMAIL_TRIAGE_PROMPT,
+    SUPERVISOR_PROMPT,
+    RESEARCH_BRIEF_PROMPT,
+    PROPOSAL_PROMPT,
+    DRAFTING_PROMPT,
+    PROJECT_TRACKING_PROMPT,
+    KNOWLEDGE_PROMPT
+)
+
+__all__ = [
+    'settings',
+    'EMAIL_TRIAGE_PROMPT',
+    'SUPERVISOR_PROMPT',
+    'RESEARCH_BRIEF_PROMPT',
+    'PROPOSAL_PROMPT',
+    'DRAFTING_PROMPT',
+    'PROJECT_TRACKING_PROMPT',
+    'KNOWLEDGE_PROMPT'
+]
